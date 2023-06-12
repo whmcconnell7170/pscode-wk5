@@ -1,10 +1,20 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-(Your pseudocode here)
+num1 =randint()
+num2=randint()
+print(num1 + num2)
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+num3 = randint()
+num4 = num3 / 2
+
+if type(num4) = int
+	print('Even')
+	elif type(num4) = float
+		print('odd')
+		else 
+			print('other')
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -14,6 +24,26 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+Console.Writeline('enter number')
+num5 = Console.ReadLine()
 
+Console.Writeline('enter number')
+num6 = Console.ReadLine()
+
+Console.Writeline('enter number')
+num7 = Console.ReadLine()
+
+Console.Writeline('enter number')
+num8 = Console.ReadLine()
+
+Console.Writeline('enter number')
+num9 = Console.ReadLine()
+
+avg = (num5 + num6 + num7 + num8  + num9)/5
+min = min(num5, num6, num7, num8 , num9)
+max = max(num5, num6, num7, num8 , num9)
+
+print('The average is the average value of five input integers:',avg)
+print('The minimum is the smallest value of five input integers:',min)
+print('The maximum is the largest calue of five input integers:',max)
 -- END --
